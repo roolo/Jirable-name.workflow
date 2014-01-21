@@ -1,5 +1,7 @@
 # Jirable name service
 
+*OSX Service that renames files so they are linkable in JIRA and other tools*
+
 ## Installation
 
 1. clone/download this repo to ~/Library/Services/
