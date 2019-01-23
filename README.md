@@ -1,6 +1,6 @@
-# Jirable name service
+# Jirable name Quick Action
 
-*OSX Service that renames files so they are linkable in JIRA and other tools*
+*macOS Quick Action that renames files so they are linkable in JIRA and other tools*
 
 ## Installation
 
@@ -10,5 +10,5 @@
 ## Usage
 
 1. Select file in Finder
-2. In menubar click `Finder` &rarr; `Services` &rarr; `Jirable name`
+2. In preview sidebar click _More..._ &rarr; _Jirable name_
 3. Previously selected file should be renamed

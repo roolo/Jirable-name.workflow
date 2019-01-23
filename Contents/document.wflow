@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>339.2</string>
+	<string>444.39</string>
 	<key>AMApplicationVersion</key>
-	<string>2.2.4</string>
+	<string>2.9</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -25,7 +25,7 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.3.1</string>
+				<string>1.3.2</string>
 				<key>AMApplication</key>
 				<array>
 					<string>Finder</string>
@@ -99,7 +99,7 @@
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action</string>
 				<key>ActionName</key>
-				<string>Replace Text</string>
+				<string>Rename Finder Items: Replace Text</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>caseIndicator</key>
@@ -150,7 +150,7 @@
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.AddNumbersToFinderNames</string>
 				<key>CFBundleVersion</key>
-				<string>1.3.1</string>
+				<string>1.3.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -479,14 +479,12 @@
 						<string>9</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.500000:677.000000</string>
+				<string>309.000000:310.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -506,7 +504,7 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.3.1</string>
+				<string>1.3.2</string>
 				<key>AMApplication</key>
 				<array>
 					<string>Finder</string>
@@ -580,7 +578,7 @@
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action</string>
 				<key>ActionName</key>
-				<string>Replace Text</string>
+				<string>Rename Finder Items: Replace Text</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>caseIndicator</key>
@@ -631,7 +629,7 @@
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.AddNumbersToFinderNames</string>
 				<key>CFBundleVersion</key>
-				<string>1.3.1</string>
+				<string>1.3.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -960,14 +958,12 @@
 						<string>9</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.500000:458.000000</string>
+				<string>309.000000:497.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -987,7 +983,7 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.3.1</string>
+				<string>1.3.2</string>
 				<key>AMApplication</key>
 				<array>
 					<string>Finder</string>
@@ -1061,7 +1057,7 @@
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action</string>
 				<key>ActionName</key>
-				<string>Replace Text</string>
+				<string>Rename Finder Items: Replace Text</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>caseIndicator</key>
@@ -1112,7 +1108,7 @@
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.AddNumbersToFinderNames</string>
 				<key>CFBundleVersion</key>
-				<string>1.3.1</string>
+				<string>1.3.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -1441,14 +1437,12 @@
 						<string>9</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.500000:239.000000</string>
+				<string>309.000000:684.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -1456,23 +1450,44 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>62BD4A71-9A2F-4122-9899-424C9C8576C3</key>
-		<dict>
-			<key>from</key>
-			<string>2EBDE3E1-BA4E-4DB6-A2B7-A08950FC5EB2 - 2EBDE3E1-BA4E-4DB6-A2B7-A08950FC5EB2</string>
-			<key>to</key>
-			<string>DE02EBBF-0348-4B04-B214-0DC6F0B577D5 - DE02EBBF-0348-4B04-B214-0DC6F0B577D5</string>
-		</dict>
-		<key>C949F502-B05B-4A1E-9150-4CDDDCDBAD63</key>
+		<key>17B1E651-68D8-41DA-8E1F-88A2BF207671</key>
 		<dict>
 			<key>from</key>
 			<string>D4E9FF87-888C-4ED4-834C-6875FC82EA5B - D4E9FF87-888C-4ED4-834C-6875FC82EA5B</string>
 			<key>to</key>
 			<string>2EBDE3E1-BA4E-4DB6-A2B7-A08950FC5EB2 - 2EBDE3E1-BA4E-4DB6-A2B7-A08950FC5EB2</string>
 		</dict>
+		<key>4468ACA7-899D-4680-B6C2-C7F72CFB3CCD</key>
+		<dict>
+			<key>from</key>
+			<string>2EBDE3E1-BA4E-4DB6-A2B7-A08950FC5EB2 - 2EBDE3E1-BA4E-4DB6-A2B7-A08950FC5EB2</string>
+			<key>to</key>
+			<string>DE02EBBF-0348-4B04-B214-0DC6F0B577D5 - DE02EBBF-0348-4B04-B214-0DC6F0B577D5</string>
+		</dict>
 	</dict>
 	<key>workflowMetaData</key>
 	<dict>
+		<key>applicationBundleID</key>
+		<string>com.apple.finder</string>
+		<key>applicationBundleIDsByPath</key>
+		<dict>
+			<key>/System/Library/CoreServices/Finder.app</key>
+			<string>com.apple.finder</string>
+		</dict>
+		<key>applicationPath</key>
+		<string>/System/Library/CoreServices/Finder.app</string>
+		<key>applicationPaths</key>
+		<array>
+			<string>/System/Library/CoreServices/Finder.app</string>
+		</array>
+		<key>inputTypeIdentifier</key>
+		<string>com.apple.Automator.fileSystemObject</string>
+		<key>outputTypeIdentifier</key>
+		<string>com.apple.Automator.nothing</string>
+		<key>presentationMode</key>
+		<integer>15</integer>
+		<key>processesInput</key>
+		<integer>0</integer>
 		<key>serviceApplicationBundleID</key>
 		<string>com.apple.finder</string>
 		<key>serviceApplicationPath</key>
@@ -1482,6 +1497,10 @@
 		<key>serviceOutputTypeIdentifier</key>
 		<string>com.apple.Automator.nothing</string>
 		<key>serviceProcessesInput</key>
+		<integer>0</integer>
+		<key>systemImageName</key>
+		<string>NSActionTemplate</string>
+		<key>useAutomaticInputType</key>
 		<integer>0</integer>
 		<key>workflowTypeIdentifier</key>
 		<string>com.apple.Automator.servicesMenu</string>
